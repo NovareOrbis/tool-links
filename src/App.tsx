@@ -206,7 +206,7 @@ function App() {
             <div className="logo-group">
               <a className="logo-link" href={import.meta.env.BASE_URL}>
                 <img
-                  alt="Links"
+                  alt="Tool Links"
                   src={`${import.meta.env.BASE_URL}links_icon.png`}
                   className="logo-img"
                   width={48}
@@ -215,7 +215,7 @@ function App() {
               </a>
               <div className="logo-text">
                 <div className="logo-name">
-                  <a href={import.meta.env.BASE_URL}>Links</a>
+                  <a href={import.meta.env.BASE_URL}>Tool Links</a>
                 </div>
                 <div className="logo-by">
                   <a href={import.meta.env.BASE_URL} className="logo-by-link">
@@ -339,7 +339,7 @@ function App() {
       {/* フッター */}
       <footer className="footer">
         <div className="footer-inner">
-          <p className="footer-text">© 2026 Links. 無料で使える便利ツールリンク集。</p>
+          <p className="footer-text">© 2026 Tool Links. 無料で使える便利ツールリンク集。</p>
         </div>
       </footer>
     </div>

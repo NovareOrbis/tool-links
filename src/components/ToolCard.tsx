@@ -65,13 +65,7 @@ export function ToolCard({ tool, rank }: ToolCardProps) {
               <p className="tool-description">{tool.description}</p>
             )}
           </div>
-          <div className="tool-tags">
-            {tool.tags.map((tag, i) => (
-              <span key={i} className={`tool-tag tag-${tag.color}`}>
-                {tag.label}
-              </span>
-            ))}
-          </div>
+
         </div>
       </a>
     </div>
